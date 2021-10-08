@@ -1,0 +1,46 @@
+.image-mb {
+    margin-bottom: 80px;
+}
+
+.card,.btn {
+    border: none;
+    padding: 0px;
+}
+
+.card:focus,.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#portfolio {
+    padding-top: 50px;
+}
+
+.card-overlay {
+    transition: all 0.2s ease-in-out;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgb(26, 188, 156);
+    max-width: 350px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.card-text {
+    opacity: 0;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.card-text:hover, .card-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card-img {
+    max-width: 350px;
+    height: 250px;
+}
+
